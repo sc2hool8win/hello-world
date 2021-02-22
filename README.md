@@ -8,6 +8,7 @@ Learning how to use GitHub
 ```C
 $rustc main.rs  
 $./main  
+Hello, world!  
 ```  
 1. hello_cargo
 ```c
