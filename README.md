@@ -10,7 +10,7 @@ $rustc main.rs
 $./main  
 Hello, world!  
 ```  
-1. hello_cargo
+2. hello_cargo
 ```c
 $ cargo new hello_cargo --bin
 $ cd hello_cargo 
@@ -31,4 +31,28 @@ $ cargo build --release
     Finished release [optimized] target(s) in 0.23s
 $ ./target/release/hello_cargo 
 Hello, world!  
+```  
+## C language
+1. hello_gnuc
+```c
+$ cat Makefile
+CC := gcc
+CFLAGS := -g -Wall -Wextra
+hello: 
+
+$ make
+$ ./hello
+hello, world!
+```  
+## C++ language
+1. hello_cpp
+```cpp
+$ cat Makefile  
+CXX := g++
+CXXFLAGS := -g -Wall
+hello:
+
+$ make
+$ ./hello
+Hello world.  
 ```  

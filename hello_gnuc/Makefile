@@ -8,4 +8,5 @@ hello:
 
 clean:
 	$(RM) hello
+	$(RM) *~
 
