@@ -56,3 +56,18 @@ $ make
 $ ./hello
 Hello world.  
 ```  
+## Python
+1. hello_python
+```python
+$ cat hello.py
+#!/usr/bin/env python3.6
+
+def main():
+    print("Hello, world!")
+
+if __name__ == '__main__':
+    main()
+
+$ ./hello.py
+Hello, world!
+```  
