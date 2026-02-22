@@ -1,3 +1,8 @@
+# system
+*.lock
+*.cargo-lock
+
+
 # Prerequisites
 *.d
 
@@ -38,6 +43,9 @@
 
 # Debug files
 *.dSYM/
+debug/
+.fingerprint/
+target/
 *.su
 *.idb
 *.pdb
